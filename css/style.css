@@ -1,0 +1,179 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{height: 6000px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.homehead{height: 52px; width: 100%; background-color:rgba(0, 0, 0, 0.7); position: fixed; top: 0; z-index: 1;}
+.home{height: 100vh; width: 100%; background-image: url(../images/ast.png); background-size: cover; position: relative;}
+.homeoverlay{height: 100%; width: 100%; background-color:rgba(0, 0, 0, 0.5); position: absolute;}
+.homecontent{top: 50%; left: 50%; position: absolute; transform: translate(-55% ,-45%); text-align: center;}
+img{height: 40px; width: 80px; float: left; margin-left: 20px; margin-top: 7px;}
+.home-li{list-style: none; display: inline-block; margin-right: 20px; margin-top: 12px; font-size: 23px; color: white;
+     text-decoration:underline ;text-decoration-color:  rgb(0, 140, 255); text-underline-offset: 17px; text-decoration-thickness: 3px;}
+.page1-li{list-style: none; display: inline-block; margin-right: 20px; margin-top: 12px; font-size: 23px; color: white;}
+ul{float: right; cursor: pointer;}
+.hometitle{color: white; font-size: 40px;}
+.homep{font-size: 25px; padding-top: 12px; color: white;}
+.home-btn{width: 160px; height: 40px; border-radius: 5px; border: 0; font-size: 18px; cursor: pointer;}
+.home-btn:hover{opacity: 0.7;}
+.home-btn.a{background-color: white; margin-right: 11px;}
+.home-btn.b{background-color: rgb(0, 162, 255);}
+.home-u{height: 5px; width: 50px; background-color: blue; margin: auto; display: inline-block;}
+.page1-li::before{content:""; background-color:  rgb(0, 140, 255); position: absolute;  bottom: 0; height: 0; 
+    width: 0; transition: 0.3s ;}
+.page1-li:hover::before{height: 3px; width: 60px;}
+.blog:hover  .blog-icon{background-color: rgb(0, 162, 255); opacity: 1; visibility: visible;}
+.blog-icon{width: 80px; height: 40px; background-color: blue; border-radius: 5px; margin-top:
+     30px; opacity: 0; visibility: hidden; position: absolute;}
+.blog-p{color: white; font-size: 15px; padding: auto; padding-top: 10px; }
+/* ///////////////////////////////////////////////////////////////////// */
+.page2title{font-size: 60px; text-align: center; margin-top: 40px;}
+.page2u{height: 5px; width: 50px; background-color: blue; margin: auto;}
+.page2table{border: 1px; border-style: solid; border-color: black; width: 280px; height: 270px; margin-left: 110px;}
+.page2table{float: left; position: relative;}
+.page2table:hover h3{color: white;}
+.page2table:hover{background-color: rgba(0, 0, 0, 0.4); transition: 2s;}
+.page2table::after{position: absolute; content: ""; width: 0; height: 0; top: 0; left: 0; 
+    background-color: black; opacity: 0; transition: 2s;}
+.page2table:hover::after{width: 100%; height: 100%; opacity: 0.4;}
+.parent2{overflow: auto;}
+h3{text-align: center; font-size: 33px;}
+.page2i1 , .page2i2 , .page2i3{font-size: 40px; color: blue; margin-left: 120px; margin-top: 10px;}
+p{text-align: center; font-size: 19px;}
+a{padding-left: 90px; font-size: 25px; text-decoration: none; color: blue;}
+
+
+.page3title{font-size: 60px; text-align: center; margin-top: 100px;}
+.page3u{height: 5px; width: 50px; background-color: blue; margin: auto; margin-bottom: 50px;}
+.page3-container{width: 95%; height:650px; margin: auto; margin-top: 10px; background-color: rgba(128, 128, 128, 0.2);}
+.part{width: 96%; height: 50%; overflow: auto; margin: auto; padding-top: 25px;}
+.page3-table{width: 32%; height: 100%; float: left; position: relative;}
+.med{margin: 0px 2%;}
+.photo{width: 100%; height: 100%; background-size:cover;}
+.page3-h{font-size: 30px;color: rgba(0, 162, 255, 0.8); }
+.page3-p{font-size: 23px; color: white;}
+.page3-i{font-size: 30px; color: rgba(0, 162, 255, 0.8); margin-left: 10px;}
+.page3-overlay{text-align: center; padding-top: 100px;}
+.page3-overlay{ position: absolute; top: 0; left: 0; bottom: 0; right: 0;background-color: rgba(0, 0, 0, 0.7);
+     opacity: 0; visibility: hidden; transition: 2s; }
+.page3-table:hover .page3-overlay{opacity: 1; visibility: visible;}
+.lower{padding-bottom: 25px;}
+.frist{background-image: url(../images/ultrasound.jpg);}
+.second{background-image: url(../images/tecaa.jpg);}
+.third{background-image: url(../images/compo.jpg); }
+.forth{background-image: url(../images/laser.jpg); }
+.fifth{background-image: url(../images/elec.jpg); }
+.sexth{background-image: url(../images/shockwave.jpeg);}
+
+/*////////////////////////*/
+.page4{overflow: auto; margin-top: 90px;}
+.page4title{color:black; font-size: 60px; text-align: center;}
+.page4u{height: 5px; width: 50px; background-color: blue; margin: auto; margin-bottom: 10px;}
+.page4table{border: 1px; border-style: solid; border-color: black;width: 280px; height: 270px;
+     margin-left: 110px; margin-top: 50px;}
+.page4table{float:left; position: relative;}
+.ia , .ib , .ic , .id , .ie , .if {font-size: 40px; color: blue; margin: auto; margin-top: 10px;}
+.offer-div-title{display: inline; font-size: 30px; }
+.page4table:hover .offer-div-title{color: white;}
+.page4table:hover{background-color: rgba(0, 0, 0, 0.4); transition: 2s;}
+.offer-div-p{text-align: justify; margin-left: 8px; margin-top: 15px; font-size: 20px;}
+.page4table::after{position: absolute; content: ""; width: 0; height: 0; top: 0; left: 0;
+     background-color: black; opacity: 0; transition: 2s;}
+.page4table:hover::after{width: 100%; height: 100%; opacity: 0.4;}
+/*////////////////////////////////////*/
+.page5{width: 80%; margin: auto; margin-top: 100px;}
+.page5title{color:black; font-size: 60px; text-align: center;}
+.page5pt{padding-top: 35px; padding-left: 40px; font-size: 30px;}
+.page5u{height: 5px; width: 50px; background-color: blue; margin: auto; margin-bottom: 10px;}
+.page5i{color: blue; margin-left: 60px; margin-top: 20px;}
+.page5image{background-image: url(../images/tens.jpeg); height: 450px; width: 520px; margin-top: 100px;}
+.page5p{display: inline; color: black;}
+.page5form{margin-left: 230px;}
+.formtype{margin-left: 180px;}
+
+.section6{margin-top: 100px; background-image: url(../images/macro.jpg); width: 100%; height: 400px; background-attachment: fixed; 
+    background-size: cover; position: relative;}
+.section6overlay{width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6); position: absolute; overflow: auto;}
+.section6a{margin-left: 200;  color: white; float: left; margin-top: 200px;text-align: center;}
+.section6i{text-align: center; color: rgb(0, 134, 139); font-size: 40px; padding-left: 2px;}
+/*////////////////////////////////////////////////////*/
+.pricing{width: 100%; height: 500px; margin-top: 90px;}
+.pricing-head{ text-align: center; font-size: 50px;}
+hr{height: 5px; width: 50px; background-color: blue; margin: auto; margin-bottom: 50px; border-radius: 2px;}
+.pricing-table{width: 250px; height: 350px; border: 1px; border-style: solid; color: gray; margin-left: 145px;
+     text-align: center; padding-top: 20px; float: left; position: relative}
+.circle{width: 100px; height: 100px; border: 2px; border-style: solid; border-radius: 50%; color: blue; margin: auto;
+     padding-top: 10px; margin-top: 15px; margin-bottom: 15px;}
+.circle-p1{font-size: 30px; color: black; font-weight: bold;}
+.circle-p2{color: black; font-weight: bold;}
+.price-btn{width: 130px; height: 30px; background-color: white; border: 2px; border-style: solid; color: blue; 
+    font-weight: bold; margin-top: 10px; cursor: pointer;}
+.btn-p{color: black; font-size: 15px;}
+.pricing-table:hover .pricing-table-title{color: red;}
+.pricing-table:hover .circle-p1{color: red;}
+.pricing-table:hover .circle-p2{color: red;}
+.pricing-table::after{position: absolute; content: ""; width: 100%; height:0;
+    top: 0; left: 0; background-color: black; opacity: 0; transition: 2s;}
+.pricing-table:hover::after{width: 100%; height: 100%; opacity: 0.5;}
+/*/////////////////////////////////////////////////*/
+.section8{width: 100%; height: 450px; background-image: url(../images/def.png); background-size: cover;
+    margin-top: 90px; background-attachment: fixed; position: relative;}
+.section8-overlay{width:100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); position: absolute;}
+.section8-content{margin: auto;}
+.section8-table{width: 450px; height: 350px; margin-left: 220px; margin-top: 75px;}
+.section8-image{width: 200px; height: 200px; border-radius: 50%; background-image: url(../images/keen.jpg);
+    background-size: cover; float: left;}
+.section8-image-def{color: white; float: left; margin-top: 90px; margin-left: 40px;}
+.section8-image-p2{color: rgb(0, 102, 255);}
+.section8-table-p{color: white; text-align: left; margin-top: 20px;}
+.section8-cv{display: inline-block; overflow: auto;}
+/*///////////////////////////////////////////////////////*/
+.team-title1{text-align: center; margin-top: 80px; font-size: 50px;}
+.teamu{height: 5px; width: 50px; background-color: blue; margin: auto; margin-bottom: 40px; border-radius: 2px;}
+.section9-container{width: 950px; height: 400px; margin: auto; margin-top: 20px; overflow: auto;}
+.section9-item{width: 300px; height: 380px; background-color: rgba(128, 128, 128, 0.8); float: left; text-align: center;
+     padding: 10px 15px; position: relative;}
+.section99{margin: 0px 25px;}
+.section9-pic{width: 85%;position: relative; margin: auto; margin-top: 20px;}
+.section9-img{width: 100%; height: 65%; margin-left: -3;}
+.section9-icons a {display: block; width: 40px; height:40px; margin-left: auto;}
+.section9-icons a i{line-height: 40px; width: 40px; height: 40px; font-size: 21px;
+    color: white; background-color: rgb(0, 153, 255);}
+.section9-icons{position: absolute; top: 7px; left: 0; bottom: 0; right: 43px;
+    background-color: rgba(0, 0, 0, 0.7); opacity: 0; visibility: hidden; transition: 2s;}
+.section9-info{margin-top: 5px;}
+.section9-item:hover .section9-icons{opacity: 1; visibility: visible;}
+.section9-title{padding: 10px 0;}
+.section9-info-p{color: white; text-align: left;}
+.section9-item:hover .section9-info-title{color: white;}
+.section9-item:hover .section9-info-p{color:black;}
+.section9-item::after{position: absolute; content:" "; background-color: rgba(0, 0, 0, 0.5);
+    width: 0; height: 0; top: 0; left: 0; transition: 2s; opacity: 0;}
+.section9-item:hover::after{width: 100%; height: 100%; opacity: .4;}
+/*///////////////////////////////////////////////////*/
+.news-container{ margin-top: 80px;}
+.news-title{text-align: center;font-size: 50px;}
+.newsu{height: 5px; width: 50px; background-color: blue; margin: auto; margin-bottom: 40px; border-radius: 2px;}
+.news-divsions{width: 92%; margin: auto;}
+.news-parent{overflow: auto; background-color: rgba(128, 128, 128, 0.815) }
+.news-table{width: 32%; background-color: rgba(0, 0, 0, 0.4); float: left; padding-left: 13px; padding-right: 13px;
+padding-bottom: 13px; position: relative;}
+.med{margin: 0px 2%;}
+.news-img{width: 360px; height: 250px; margin: auto; background-size: cover; margin-top: 20px;}
+.i1{background-image:url(../images/ultrasound.jpg); background-size: cover;}
+.i2{background-image:url(../images/mdevice.jpg) ; background-size: cover;}
+.i3{background-image: url(../images/shockw.jpg); background-size: cover;}
+.news-p1{text-align: left; color: white; margin-left: 10px;}
+.news-t1{margin-left: 10px;}
+.news-i{color: blue; font-size: 20px; margin-left: 15px;}
+.news-i span{color: black;}
+.newsa{text-decoration: none; display: block; margin-top: 20px; color:rgb(0, 17, 255);}
+.news-table::after{position: absolute; content: ""; top: 0; left: 0; width: 100%; height: 0; 
+    background-color: rgba(0, 0, 0, 0.5); opacity: 0; transition: 2s;}
+.news-table:hover::after{width: 100%; height: 100%; opacity: 0.5;}
+/*////////////////////////////////////////////////////////////////////////*/
+.end{width: 100%; height: 320px; background-color: rgba(0, 0, 0, 0.6); position: relative;}
+.end-img{ width: 300px; height: 200px; margin: auto;}
+.end-img img{width: 300px; height: 200px; margin: auto; padding-top: 40px;}
+.end-i{text-align: center; margin-top: 20px;}
+.end-i i{ width: 40px; height: 40px; font-size: 22px; color: white; background-color:rgba(0, 0, 0, 0.7); 
+    border-radius: 50%; line-height: 40px; margin-left: 6px; cursor: pointer;}
+.end-p{margin-top: 20px; color: white;}
+.end-overlay{height: 100%; width: 100%; background-color:rgba(0, 0, 0, 0.7); position: absolute;}
